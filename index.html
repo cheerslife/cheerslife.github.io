@@ -16,7 +16,7 @@
 
     <script id="hexo-configurations">
     let ILS = window.ILS || {};
-    let CONFIG = {"hostname":"example.com","root":"/","localsearch":{"enable":true,"trigger":"auto","unescape":false,"preload":false},"themeInfo":{"name":"ILS","version":"2.1.0","author":"XPoet","repository":"https://github.com/XPoet/hexo-theme-ils"},"toc":{"enable":false,"number":true,"expand_all":true},"back2top":{"enable":true}};
+    let CONFIG = {"hostname":"example.com","root":"/","localsearch":{"enable":true,"trigger":"auto","unescape":false,"preload":true},"themeInfo":{"name":"ILS","version":"2.1.0","author":"XPoet","repository":"https://github.com/XPoet/hexo-theme-ils"},"toc":{"enable":false,"number":true,"expand_all":true},"back2top":{"enable":true},"path":"search.json"};
   </script>
 <meta name="generator" content="Hexo 5.2.0"></head>
 
@@ -59,6 +59,14 @@
                     </a>
                 </li>
             
+                <li class="menu-item">
+                    <a class=""
+                       href="/about"
+                    >
+                        ABOUT
+                    </a>
+                </li>
+            
         </ul>
 
         <div class="menu-bar">
@@ -77,6 +85,11 @@
                 <li class="drawer-menu-item">
                     <a class=""
                        href="/archives">ARCHIVES</a>
+                </li>
+            
+                <li class="drawer-menu-item">
+                    <a class=""
+                       href="/about">ABOUT</a>
                 </li>
             
         </ul>
@@ -166,6 +179,10 @@
         <div class="tools-container">
     <ul class="tools-list">
         
+            <li class="search popup-trigger">
+                <i class="fa fa-search"></i>
+            </li>
+        
 
         
 
@@ -254,6 +271,10 @@
 <script src="/js/dark-light-toggle.js"></script>
 <script src="/js/main.js"></script>
 
+
+
+    
+<script src="/js/local-search.js"></script>
 
 
 
